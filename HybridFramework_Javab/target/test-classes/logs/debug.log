@@ -1,0 +1,36 @@
+2024-07-18 10:11:13.408 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-07-18 10:11:13.413 DEBUG ApplicationKeywords:187 - Starting test StoreEntryTestCases-VerifyStoreEntryTitle-It.1
+2024-07-18 10:11:13.422 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:11:13.447 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:11:13.483 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:11:13.502 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:11:13.503 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:11:13.525 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:11:13.563 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-07-18 10:11:13.564 DEBUG ApplicationKeywords:187 - Starting test HomePageTestCases-VerifySignInButtonPresence-It.1
+2024-07-18 10:11:13.565 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:11:13.583 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:11:13.600 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-07-18 10:11:13.600 DEBUG ApplicationKeywords:187 - Starting test DashBoardTestCases-Verifylogin-It.1
+2024-07-18 10:11:13.602 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:11:13.617 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:11:13.618 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:11:13.632 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:16:53.966 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-07-18 10:16:53.969 DEBUG ApplicationKeywords:187 - Starting test StoreEntryTestCases-VerifyStoreEntryTitle-It.1
+2024-07-18 10:16:53.979 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:16:54.014 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:16:54.043 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:16:54.062 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:16:54.063 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:16:54.083 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:16:54.114 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-07-18 10:16:54.115 DEBUG ApplicationKeywords:187 - Starting test HomePageTestCases-VerifySignInButtonPresence-It.1
+2024-07-18 10:16:54.116 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:16:54.128 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:16:54.144 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-07-18 10:16:54.145 DEBUG ApplicationKeywords:187 - Starting test DashBoardTestCases-Verifylogin-It.1
+2024-07-18 10:16:54.146 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:16:54.161 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-07-18 10:16:54.163 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-07-18 10:16:54.178 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
