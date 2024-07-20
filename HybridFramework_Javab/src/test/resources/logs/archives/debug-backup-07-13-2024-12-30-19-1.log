@@ -1,0 +1,66 @@
+2024-06-29 14:44:00.456 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 14:44:00.479 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 14:44:00.510 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 14:44:01.718 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 14:44:07.961 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 14:44:07.982 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 14:44:08.826 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 14:44:14.676 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 14:44:14.695 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 14:44:15.540 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 14:44:19.001 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 14:44:19.002 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 14:44:19.022 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 14:44:19.783 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 14:44:25.663 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 14:44:25.665 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 14:44:25.682 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 14:44:26.514 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 14:44:32.370 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 14:44:32.383 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 14:44:33.209 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:06:05.699 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 15:06:05.717 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:06:05.747 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:06:06.972 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:06:13.129 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:06:13.161 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:06:13.999 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:06:19.898 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:06:19.922 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:06:20.773 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:06:27.044 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 15:06:27.045 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:06:27.069 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:06:27.931 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:06:33.927 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 15:06:33.929 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:06:33.952 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:06:34.829 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:06:40.741 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:06:40.763 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:06:41.591 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:14:08.812 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 15:14:08.816 DEBUG ApplicationKeywords:187 - Starting test StoreEntryTestCases-VerifyStoreEntryTitle-It.1
+2024-06-29 15:14:08.830 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:14:08.856 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:14:10.063 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:14:16.079 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:14:16.106 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:14:16.959 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:14:22.985 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:14:23.007 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:14:23.849 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:14:30.130 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 15:14:30.131 DEBUG ApplicationKeywords:187 - Starting test HomePageTestCases-VerifySignInButtonPresence-It.1
+2024-06-29 15:14:30.132 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:14:30.148 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:14:30.976 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:14:37.034 INFO  ApplicationKeywords:40 - Configuration & Log configuration completed
+2024-06-29 15:14:37.034 DEBUG ApplicationKeywords:187 - Starting test DashBoardTestCases-Verifylogin-It.1
+2024-06-29 15:14:37.036 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:14:37.054 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:14:37.980 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
+2024-06-29 15:14:43.853 DEBUG ApplicationKeywords:187 - Starting to create a portfolio
+2024-06-29 15:14:43.868 DEBUG ApplicationKeywords:187 - Opening The Browser chrome
+2024-06-29 15:14:44.687 DEBUG ApplicationKeywords:187 - Navigating to TEST_URL
