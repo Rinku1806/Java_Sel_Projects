@@ -88,7 +88,7 @@ public class BaseTest {
 		} else if (browserName.equals("edge")) {
 			WebDriverManager.edgedriver().setup();
 			EdgeOptions options = new EdgeOptions();
-			String userDataDir = "C:\\Users\\rkumar\\AppData\\Local\\Microsoft\\Edge\\User Data\\Work";
+			String userDataDir = "C:\\Users\\MSI\\AppData\\Local\\Microsoft\\Edge\\User Data\\Work";
 			options.addArguments("user-data-dir=" + userDataDir );
 			options.addArguments("--start-maximized");
 			driver = new EdgeDriver(options);

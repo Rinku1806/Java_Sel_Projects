@@ -4,7 +4,7 @@ utilities\ExcelReader.class
 testTrials\Trial.class
 utilities\DataUtil.class
 utilities\TestConfig.class
-tbase\BaseTest.class
 extentlisteners\ExtentListeners.class
-extentlisteners\ExtentManager.class
 testcases\StoreEntryTest.class
+tbase\BaseTest.class
+extentlisteners\ExtentManager.class
