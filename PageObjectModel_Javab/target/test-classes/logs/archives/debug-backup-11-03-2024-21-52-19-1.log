@@ -1,0 +1,76 @@
+2024-11-03 21:19:37.004 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:19:40.529 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:19:41.822 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:19:44.880 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:20:00.055 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:00.056 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:00.471 INFO  BaseTest:66 - Validation of all breeds of birds in the store completed
+2024-11-03 21:20:10.947 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:10.948 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:11.210 INFO  BaseTest:70 - Validation of all breeds of cats in the store completed
+2024-11-03 21:20:21.625 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:21.625 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:21.626 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:21.626 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:21.626 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:21.626 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:21.900 INFO  BaseTest:74 - Validation of all breeds of dogs in the store completed
+2024-11-03 21:20:32.275 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:32.275 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:32.546 INFO  BaseTest:78 - Validation of all breeds of reptiles in the store completed
+2024-11-03 21:20:42.922 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:42.922 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:42.922 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:42.922 INFO  BaseTest:135 - Validating available pets in the given corresponding tables
+2024-11-03 21:20:43.200 INFO  BaseTest:82 - Validation of all breeds of fish in the store completed
+2024-11-03 21:20:48.398 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-11-03 21:20:48.536 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:20:49.088 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:20:50.060 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:20:53.111 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:20:55.005 INFO  BaseTest:31 - Validation of birds in the store completed
+2024-11-03 21:20:55.016 INFO  BaseTest:33 - Validation of cats in the store completed
+2024-11-03 21:20:55.028 INFO  BaseTest:35 - Validation of dogs in the store completed
+2024-11-03 21:20:55.038 INFO  BaseTest:37 - Validation of fish in the store completed
+2024-11-03 21:20:55.048 INFO  BaseTest:39 - Validation of reptiles in the store completed
+2024-11-03 21:21:00.065 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-11-03 21:21:00.177 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:21:00.705 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:21:01.593 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:21:04.646 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:21:04.650 INFO  BaseTest:23 - Validated the home page title of Petstore
+2024-11-03 21:21:09.662 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-11-03 21:21:09.763 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:21:10.302 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:21:11.187 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:21:14.249 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:21:14.993 INFO  BaseTest:45 - Validation of SignIn button availability at StoreEntry page
+2024-11-03 21:21:20.012 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-11-03 21:21:20.109 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:21:20.712 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:21:21.618 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:21:24.659 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:21:25.425 INFO  BaseTest:24 - Validation of landing to Dashboard completed without
+2024-11-03 21:21:30.442 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-11-03 21:21:30.542 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:21:31.095 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:21:32.009 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:21:35.048 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:21:42.832 INFO  BaseTest:75 - Validation of landing to Dashboard after login
+2024-11-03 21:21:47.846 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-11-03 21:21:47.941 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:21:48.470 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:21:49.378 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:21:52.429 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:22:00.264 INFO  BaseTest:75 - Validation of landing to Dashboard after login
+2024-11-03 21:22:05.275 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-11-03 21:22:05.371 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:22:05.883 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:22:06.776 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:22:09.840 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:22:32.556 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-11-03 21:22:32.639 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-11-03 21:22:33.229 INFO  BaseTest:75 - Started test in Chrome
+2024-11-03 21:22:34.118 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-11-03 21:22:37.177 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-11-03 21:22:59.828 INFO  BaseTest:114 - Test Execution completed, quitting
