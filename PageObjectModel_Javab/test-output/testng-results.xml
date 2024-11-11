@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href=Mon_Nov_11_19_12_10_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Mon_Nov_11_19_12_10_IST_2024.jpg target="_blank"><img src=Mon_Nov_11_19_12_10_IST_2024.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Mon_Nov_11_19_13_54_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Mon_Nov_11_19_13_54_IST_2024.jpg target="_blank"><img src=Mon_Nov_11_19_13_54_IST_2024.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Mon_Nov_11_19_14_21_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Mon_Nov_11_19_14_21_IST_2024.jpg target="_blank"><img src=Mon_Nov_11_19_14_21_IST_2024.jpg height=200 width=200></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-11T19:11:06 IST" name="Suite" finished-at="2024-11-11T19:14:26 IST" duration-ms="200665">
+    <groups>
+    </groups>
+    <test started-at="2024-11-11T19:11:06 IST" name="Test" finished-at="2024-11-11T19:14:26 IST" duration-ms="200665">
+      <class name="testcases.HomePageTest">
+        <test-method signature="VerifyHomePageTitle(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@75ae4a1f]" started-at="2024-11-11T19:12:26 IST" name="VerifyHomePageTitle" data-provider="dp" finished-at="2024-11-11T19:12:31 IST" duration-ms="4490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@75ae4a1f]" started-at="2024-11-11T19:12:31 IST" name="tearDown" finished-at="2024-11-11T19:12:36 IST" duration-ms="5108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.DashBoardTest">
+        <test-method signature="verifyAllPets(java.lang.String,java.lang.String)[pri:0, instance:testcases.DashBoardTest@48d293ee]" started-at="2024-11-11T19:11:06 IST" name="verifyAllPets" data-provider="dp" finished-at="2024-11-11T19:12:09 IST" duration-ms="63645" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Chihuahua] but found [Poodle],
+expected [Labrador Retriever] but found [Dalmation],
+expected [Golden Retriever] but found [Labrador Retriever],
+expected [Dalmation] but found [Golden Retriever],
+expected [Poodle] but found [Chihuahua],
+expected [Iguana] but found [Rattlesnake],
+expected [Rattlesnake] but found [Iguana],
+expected [TigerShark] but found [Tiger Shark]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Chihuahua] but found [Poodle],
+expected [Labrador Retriever] but found [Dalmation],
+expected [Golden Retriever] but found [Labrador Retriever],
+expected [Dalmation] but found [Golden Retriever],
+expected [Poodle] but found [Chihuahua],
+expected [Iguana] but found [Rattlesnake],
+expected [Rattlesnake] but found [Iguana],
+expected [TigerShark] but found [Tiger Shark]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testcases.DashBoardTest.verifyAllPets(DashBoardTest.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=Mon_Nov_11_19_12_10_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Mon_Nov_11_19_12_10_IST_2024.jpg target="_blank"><img src=Mon_Nov_11_19_12_10_IST_2024.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllPets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashBoardTest@48d293ee]" started-at="2024-11-11T19:12:10 IST" name="tearDown" finished-at="2024-11-11T19:12:15 IST" duration-ms="5139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyAvailablePets(java.lang.String,java.lang.String)[pri:0, instance:testcases.DashBoardTest@48d293ee]" started-at="2024-11-11T19:12:15 IST" name="verifyAvailablePets" data-provider="dp" finished-at="2024-11-11T19:12:21 IST" duration-ms="6458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailablePets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashBoardTest@48d293ee]" started-at="2024-11-11T19:12:21 IST" name="tearDown" finished-at="2024-11-11T19:12:26 IST" duration-ms="5118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.DashBoardTest -->
+      <class name="testcases.StoreEntryTest">
+        <test-method signature="VerifySignInButtonPresence(java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:12:36 IST" name="VerifySignInButtonPresence" data-provider="dp" finished-at="2024-11-11T19:12:41 IST" duration-ms="5361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInButtonPresence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:12:41 IST" name="tearDown" finished-at="2024-11-11T19:12:46 IST" duration-ms="5094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="VerifyStoreEntryTitle(java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:12:47 IST" name="VerifyStoreEntryTitle" data-provider="dp" finished-at="2024-11-11T19:12:52 IST" duration-ms="5314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStoreEntryTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:12:52 IST" name="tearDown" finished-at="2024-11-11T19:12:57 IST" duration-ms="5102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:12:57 IST" name="Verifylogin" data-provider="dp" finished-at="2024-11-11T19:13:09 IST" duration-ms="12360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:13:09 IST" name="tearDown" finished-at="2024-11-11T19:13:14 IST" duration-ms="5115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:13:14 IST" name="Verifylogin" data-provider="dp" finished-at="2024-11-11T19:13:27 IST" duration-ms="12322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rinku]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:13:27 IST" name="tearDown" finished-at="2024-11-11T19:13:32 IST" duration-ms="5112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:13:32 IST" name="Verifylogin" data-provider="dp" finished-at="2024-11-11T19:13:54 IST" duration-ms="22116" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rinku1806]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#WelcomeContent"}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd090a60cf3ea0a5d6cd7d23b1e9f4c3, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MSI\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55430/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd090a60cf3ea0a5d6cd7d23b1e9f4c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#WelcomeContent"}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd090a60cf3ea0a5d6cd7d23b1e9f4c3, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MSI\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55430/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd090a60cf3ea0a5d6cd7d23b1e9f4c3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
+at pages.DashBoard.getWelcomeContent(DashBoard.java:37)
+at testcases.StoreEntryTest.Verifylogin(StoreEntryTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=Mon_Nov_11_19_13_54_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Mon_Nov_11_19_13_54_IST_2024.jpg target="_blank"><img src=Mon_Nov_11_19_13_54_IST_2024.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:13:54 IST" name="tearDown" finished-at="2024-11-11T19:13:59 IST" duration-ms="5123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:13:59 IST" name="Verifylogin" data-provider="dp" finished-at="2024-11-11T19:14:21 IST" duration-ms="22065" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rinku]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rinku1806]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#WelcomeContent"}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82b50207ab087bac8dd11c41f1c1376d, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MSI\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55460/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 82b50207ab087bac8dd11c41f1c1376d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#WelcomeContent"}
+  (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82b50207ab087bac8dd11c41f1c1376d, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\MSI\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55460/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 82b50207ab087bac8dd11c41f1c1376d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
+at pages.DashBoard.getWelcomeContent(DashBoard.java:37)
+at testcases.StoreEntryTest.Verifylogin(StoreEntryTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=Mon_Nov_11_19_14_21_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Mon_Nov_11_19_14_21_IST_2024.jpg target="_blank"><img src=Mon_Nov_11_19_14_21_IST_2024.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@7a0e7ecd]" started-at="2024-11-11T19:14:21 IST" name="tearDown" finished-at="2024-11-11T19:14:26 IST" duration-ms="5119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.StoreEntryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
