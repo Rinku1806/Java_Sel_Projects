@@ -22,8 +22,8 @@ public class ExtentManager {
 			System.out.println(d.toString().replaceAll(":", "-"));
 			String reportsFolder=d.toString().replaceAll(":", "-") +"//screenshots";
 			
-		    screenshotFolderPath = System.getProperty("user.dir") +"//reports//"+reportsFolder;
-			String reportFolderPath = System.getProperty("user.dir") +"//reports//"+d.toString().replaceAll(":", "-");
+		    screenshotFolderPath = System.getProperty("user.dir") +"//XtentReports//"+reportsFolder;
+			String reportFolderPath = System.getProperty("user.dir") +"//XtentReports//"+d.toString().replaceAll(":", "-");
 			System.out.println(screenshotFolderPath);
 			File f = new File(screenshotFolderPath);
 			f.mkdirs();// create dynamic report folder name + screenshots
