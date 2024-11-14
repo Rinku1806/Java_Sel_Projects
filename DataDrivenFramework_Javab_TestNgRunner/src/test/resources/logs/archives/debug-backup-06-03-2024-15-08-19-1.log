@@ -1,9 +1,0 @@
-2024-06-03 14:35:10.517 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
-2024-06-03 14:35:14.673 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
-2024-06-03 14:35:16.680 DEBUG ApplicationKeywords:188 - Checking presence of HOME_PAGE_TITLE
-2024-06-03 14:35:17.115 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
-2024-06-03 14:35:20.140 DEBUG ApplicationKeywords:188 - Navigating to https://petstore.octoperf.com/
-2024-06-03 14:35:21.981 DEBUG ApplicationKeywords:188 - Clicking on ENTER_STORE_LINK_xpath
-2024-06-03 14:35:21.981 DEBUG ApplicationKeywords:188 - Checking presence of ENTER_STORE_LINK_xpath
-2024-06-03 14:35:22.699 DEBUG ApplicationKeywords:188 - Checking presence of SIGNIN_LINK_xpath
-2024-06-03 14:35:22.915 DEBUG ApplicationKeywords:188 - Opening The Browser chrome
